@@ -1,0 +1,10 @@
+<h1 class="table-title">Personajes de Star Wars</h1>
+<table datatable [dtOptions]="dtOptions" class="starwars-table"></table>
+
+<div class="modal" [class.show]="showModal" *ngIf="selectedData">
+  <div class="modal-content">
+    <pre>{{ selectedData | json }}</pre>
+    <button (click)="showModal = false">Cerrar</button>
+  </div>
+</div>
+

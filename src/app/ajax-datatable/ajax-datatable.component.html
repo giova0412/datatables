@@ -1,0 +1,7 @@
+<div class="table-responsive">
+  <h2 class="mb-4">Monitor de Sesiones</h2>
+  <div class="alert alert-info" *ngIf="!dtOptions.ajax">Cargando datos...</div>
+  <table datatable [dtOptions]="dtOptions" class="sessions-table display">
+  </table>
+</div>
+

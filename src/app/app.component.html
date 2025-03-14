@@ -1,10 +1,14 @@
-<div class="container">
-  <div class="header">
-    <h1 class="title">Peleas de la UFC del 2024</h1>
-    <div class="title-underline"></div>
+<nav class="navbar">
+  <div class="nav-container">
+    <ul class="nav-links">
+      <li><a routerLink="/ajax" routerLinkActive="active">Sesiones API</a></li>
+      <li><a routerLink="/json" routerLinkActive="active">Star Wars</a></li>
+      <li><a routerLink="/options" routerLinkActive="active">Opciones</a></li>
+      <li><a routerLink="/basic" routerLinkActive="active">Básica</a></li>
+    </ul>
   </div>
-  <div class="table-container">
-    <app-options-datatable></app-options-datatable>
-  </div>
+</nav>
+
+<div class="container mt-4">
+  <router-outlet></router-outlet>
 </div>
-<router-outlet />

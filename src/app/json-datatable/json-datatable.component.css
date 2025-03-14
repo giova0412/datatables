@@ -1,0 +1,62 @@
+:host {
+  background-color: #000;
+  display: block;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.table-title {
+  color: #FFE81F;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
+}
+
+:host ::ng-deep .starwars-table {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #FFE81F !important;
+  border: 2px solid #FFE81F !important;
+  border-radius: 8px;
+  margin: 20px 0 !important;
+}
+
+:host ::ng-deep .starwars-table thead th {
+  background-color: #1a1a1a !important;
+  color: #FFE81F !important;
+  border-bottom: 2px solid #FFE81F !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+:host ::ng-deep .starwars-table tbody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(255, 232, 31, 0.3);
+}
+
+:host ::ng-deep .starwars-table .btn-info {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+:host ::ng-deep .dataTables_info {
+  color: #FFE81F !important;
+}
+
+:host ::ng-deep .dataTables_paginate .paginate_button {
+  color: #FFE81F !important;
+  background: #1a1a1a !important;
+  border: 1px solid #FFE81F !important;
+}
+
+:host ::ng-deep .dataTables_paginate .paginate_button.current {
+  background: #FFE81F !important;
+  color: #000 !important;
+}

@@ -1,0 +1,141 @@
+:host {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+}
+
+:host ::ng-deep .sessions-table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+:host ::ng-deep .sessions-table thead th {
+  background: linear-gradient(180deg, #1e40af 0%, #1e3a8a 100%) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 1rem !important;
+  border: none !important;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+:host ::ng-deep .sessions-table tbody tr {
+  transition: all 0.2s ease;
+}
+
+:host ::ng-deep .sessions-table tbody tr:nth-child(even) {
+  background-color: #f8fafc !important;
+}
+
+:host ::ng-deep .sessions-table tbody tr:hover {
+  background-color: #e2e8f0 !important;
+  cursor: pointer;
+}
+
+:host ::ng-deep .sessions-table tbody td {
+  padding: 1rem !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  vertical-align: middle !important;
+  font-size: 0.95rem;
+}
+
+:host ::ng-deep .dataTables_info {
+  color: #212529 !important;
+  padding: 10px 0;
+}
+
+:host ::ng-deep .dataTables_paginate .paginate_button {
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.25rem !important;
+  border-radius: 6px !important;
+  border: 1px solid #e2e8f0 !important;
+  background: white !important;
+  color: #1e40af !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+:host ::ng-deep .dataTables_paginate .paginate_button:hover {
+  background: #f1f5f9 !important;
+  border-color: #1e40af !important;
+}
+
+:host ::ng-deep .dataTables_paginate .paginate_button.current {
+  background: #1e40af !important;
+  color: white !important;
+  border-color: #1e40af !important;
+}
+
+:host ::ng-deep .dataTables_processing {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table-responsive {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+:host ::ng-deep .table-responsive {
+  min-height: 200px;
+}
+
+:host ::ng-deep .badge {
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+:host ::ng-deep .bg-success { 
+  background: linear-gradient(45deg, #059669, #10b981) !important; 
+}
+
+:host ::ng-deep .bg-warning { 
+  background: linear-gradient(45deg, #d97706, #f59e0b) !important; 
+}
+
+:host ::ng-deep .bg-danger { 
+  background: linear-gradient(45deg, #dc2626, #ef4444) !important; 
+}
+
+:host ::ng-deep .bg-dark { 
+  background: linear-gradient(45deg, #374151, #4b5563) !important; 
+}
+
+:host ::ng-deep .dataTables_filter {
+  margin-bottom: 1.5rem;
+}
+
+:host ::ng-deep .dataTables_filter label {
+  font-weight: 600;
+  color: #1e40af;
+}
+
+:host ::ng-deep .dataTables_filter input {
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+:host ::ng-deep .dataTables_filter input:focus {
+  outline: none;
+  border-color: #1e40af;
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+}
+
+:host ::ng-deep .dataTables_paginate {
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
